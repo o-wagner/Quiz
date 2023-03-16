@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #22272E;
+    flex-direction: column;
+}
+
+.logo{
+    height: 100px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.title{
+    justify-content: center;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+    color: #c0a276;
+    font-family: 'Rampart One',cursive;
+}
+.description{
+    font-size: 1rem;
+    margin-top: 3px;
+    color: #c0a276;
+    font-family: 'Roboto';
+}
+
+.btn-start{
+    background-color: #947e5c;
+    margin: 45px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-size: 1.0rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+.btn-start:hover{
+    background-color: #524939;
+}
+
+.footer{
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    font-family: 'roboto';
+    font-size: 0.9rem;
+}
+
+.author{
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-family: 'roboto';
+}
