@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #22272E;
+    flex-direction: column;
+}
+
+.logo{
+    height: 100px;
+    margin-bottom: 20px
+}
+
+.card{
+    background-color: #8434DE;
+    width: 350px;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem rgba(0,0,0.2);
+}
+
+.card-question{
+    padding: 8px;
+}
+
+.card-title{
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}

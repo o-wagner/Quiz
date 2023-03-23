@@ -1,14 +1,20 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './styles.css'; 
 import Logo from '../../assets/imgs/quiz.png';
 
 function Home() {
+const navigate = useNavigate();
+
+function start(){
+  return navigate('/game');
+}
   return (
     <div className="container">
         <h1 className="title">Bem vindo ao</h1>
         <img className="logo"src={Logo} alt="Logo" />
         <small className="description">Teste seus conhecimentos </small>
-        <button className="btn-start">✔ Começar</button>
+        <button onClick={start} className="btn-start">✔ Começar</button>
         
         <footer className="footer">
             <p>Criado por  
